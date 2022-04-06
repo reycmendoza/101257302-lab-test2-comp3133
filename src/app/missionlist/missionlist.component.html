@@ -1,0 +1,10 @@
+<h1>SpaceX Mission Launch List<br><br></h1>
+
+<div *ngFor="let list of mission_list" style="background-color:powderblue;">
+    <h2>{{list.mission_name}}</h2>
+    <p>{{list.launch_year}}</p>
+    <p>{{list.details}}</p>
+    <img src="{{list.mission_patch_small}}">
+    <hr/>
+</div>
+

@@ -1,0 +1,24 @@
+<h1 style="font-size: 50px">SpaceX Mission Details  <br><br></h1>
+
+<div *ngFor="let list of mission_list" style="background-color:powderblue;" > 
+    <h2>Mission Name:  {{list.mission_name}} </h2>
+    <p>Name:  {{list.mission_name}} </p>
+    <p>Launch Year:  {{list.launch_year}} </p>
+    <p>Launch Year:  {{list.launch_year}} </p>
+    <br>
+    <h2>Rocket</h2>
+    <p>Name:  {{list.rocket.rocket_name}} </p>
+    <p>Type: {{list.rocket.rocket_type}} </p>
+    <br>
+    <h2>Launch Site </h2>
+    <p>Name:{{list.launch_site.site_name_long}} </p>
+    <br>
+    <h2>Launch Details</h2>
+    <p>{{list.details}}</p>
+    <br>
+
+    <h2>More Info on Launch Details</h2>  
+    
+<hr/>
+</div>
+
